@@ -1,0 +1,64 @@
+* {
+    color: purple;
+  }
+  .Homepage{
+    font-size: 30px;
+    text-align: center
+  }
+
+  p {
+    /* hex example: */
+    color: #1100ff;
+    color: rgb(100, 0, 127);
+    color: hsl(15, 82%, 56%);
+  }
+
+  div {
+    color: white;
+    
+  }
+
+  .alert-text {
+    font-family: "Times New Roman", sans-serif;
+    color: red;
+  }
+
+  #title {
+    background-color: green;
+  }
+
+.read,
+.unread {
+  color: white;
+  background-color: black;
+}
+
+.subsection.header {
+    color: red;
+  }
+  
+  .subsection#preview {
+    color: blue;
+  }
+
+  img{
+    height: auto;
+    width: 400px;
+  }
+
+  #span1{
+    color: black;
+  }
+
+  .flex-container {
+    
+  }
+  
+  /* this selector selects all divs inside of .flex-container */
+  .flex-container div {
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 100px;
+    /* flex: 1; */
+  }
+
