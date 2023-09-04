@@ -19,3 +19,11 @@ flex-start   (top)
 flex-end      (bottom)
 stretch
 baseline
+
+
+gh auth login - para iniciar sesion con github y poder clonar y hacer push a repositorios de github
+Solo se ocupa hacer una sola vez aunque uses mas repositorios
+git clone URL - clona el repositorio
+git add . - Añade todos los archivos cambiados a el commit
+git commit -m "mensaje" - aplica los cambios a un nuevo commit con el mensaje "mensaje"
+git push origin main - sube los cambios al servidor remoto origin en la rama main
